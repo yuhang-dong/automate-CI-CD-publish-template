@@ -4,8 +4,7 @@ export default defineConfig({
     build: {
         lib: {
             entry: ['src/index.ts'],
-            name: 'interceptor',
-            formats: ['es', 'cjs', 'umd']
+            formats: ['es', 'cjs']
         },
         emptyOutDir: false,
     }
